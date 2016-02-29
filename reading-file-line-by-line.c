@@ -48,6 +48,6 @@ int read_line_by_line(char *filepath)
 
 int main(int argc, char const *argv[])
 {
-	read_line_by_line("/asli/channels.ini");
+	read_line_by_line("file.ini");
 	return 0;
 }
